@@ -1,0 +1,5 @@
+list1=str(input("enter the string:"))
+length=len(list1)
+print(length)
+filen=open("list2.txt","w")
+filedata=filen.write(str(length))
